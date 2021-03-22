@@ -1,6 +1,6 @@
 # Website for Meal Assistance
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).  
+This is the repository that contains source code for the [Meal Assistance website](https://sbpark422.github.io/Meal_Assistance/).  
 The website template was borrowed from [nerfies](https://github.com/nerfies/nerfies.github.io).
 
 # Website License
