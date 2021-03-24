@@ -183,7 +183,7 @@
           <div class="content has-text-justified">
             <p>
               Our design probe system was implemented in the environment of Unity 2019.2.17f with a head-mounted device (i.e., HTC VIVE Pro Eye) based on virtual reality (VR).
-              To get the voice command from the users and provide the output to the users, we used <a href="https://www.ibm.com/watson">IBM’s Watson</a>IBM’s Watson to receive users’ voice input through the microphone and convert it to text.
+              To get the voice command from the users and provide the output to the users, we used <a href="https://www.ibm.com/watson">IBM’s Watson</a> to receive users’ voice input through the microphone and convert it to text.
               We also used text-to-speech module to provide requested information verbally to the users. The system supports two types of assistance: (1) providing dish-related information on a table, and (2) guiding users’ hand towards a particular dish.
             </p>
           </div>
@@ -216,10 +216,14 @@
 
         <div class="content has-text-justified">
           <p>
-            1. Dish-related Information. The system provides the overview information of the dishes on a table when it detects the users’ voice command saying "overview". It informs the total number of dishes followed by the dish arrangement (e.g., "There are in total 6 dishes straightly lined up"), and how dishes are spread about (e.g., "Starting from 10 o’clock to 2 o’clock."). Lastly, it notifies the name of each dish one at a time from left to right. It also allows the users to ask the amount of food (i.e., "How much is the sandwich left?")(food amount). The system conveys information of the amount of a particular dish in four levels: Full, Half, Little, and Almost None.
+            1. Dish-related Information. The system provides the overview information of the dishes on a table when it detects the users’ voice command saying "overview". It informs the total number of dishes followed by the dish arrangement (e.g., "There are in total 6 dishes straightly lined up"), and how dishes are spread about (e.g., "Starting from 10 o’clock to 2 o’clock.").
+            Lastly, it notifies the name of each dish one at a time from left to right.
+            It also allows the users to ask the amount of food (i.e., "How much is the sandwich left?")(food amount).
+            The system conveys information of the amount of a particular dish in four levels: Full, Half, Little, and Almost None.
           </p>
           <p>
-            2. Hand Guidance. The system also helps the users to find a particular dish on a table with audio feedback. For instance, when a user asks for the location (e.g., "Where is the sandwich?"), it first verbally conveys the relative direction of the dish (e.g. "It’s at 2 o’clock"), which we refer as verbal guidance. Then it plays beeps where its frequency gets higher as a user’s hand gets closer to the target (beeping guidance). If the user finds a dish other than the target, the system informs the location of the target dish in a relative direction from the user, such as whether it is at the left or the right of the user. In addition, the system cautions the user if the temperature of the target dish is too hot.
+            2. Hand Guidance. The system also helps the users to find a particular dish on a table with audio feedback. For instance, when a user asks for the location (e.g., "Where is the sandwich?"), it first verbally conveys the relative direction of the dish (e.g. "It’s at 2 o’clock"), which we refer as verbal guidance. Then it plays beeps where its frequency gets higher as a user’s hand gets closer to the target (beeping guidance).
+            If the user finds a dish other than the target, the system informs the location of the target dish in a relative direction from the user, such as whether it is at the left or the right of the user. In addition, the system cautions the user if the temperature of the target dish is too hot.
             A number of studies have been conducted to understand the accessibility issues that people with visual impairments experience.
           </p>
         </div>
